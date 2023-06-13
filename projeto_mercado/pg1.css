@@ -1,25 +1,43 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
-*{
-    padding: 0;
-    margin: 0;
+
+* {
     box-sizing: border-box;
 }
 
 nav {
+    align-items: center;
     text-align: center;
-    padding: 0;
+    padding: 15px;
     background-color: burlywood;
+
+    
 }
 
-div main{
+main {
     text-align: center;
     background-color: blanchedalmond;
+    width: 70%;
+    padding: 40px;
 }
-div aside{
+
+aside {
     text-align: center;
     background-color: aqua;
-
+    width: 30%;
+    padding: 50px;
 }
+footer{
+    background-color: azure;
+    height: 150px;
+    position: relative;
+    font-size: 50px;
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #container {
     max-width: 80%;
     position: relative;
