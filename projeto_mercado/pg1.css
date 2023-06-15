@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+header{
+    background-image: url(/projeto_mercado/img/img01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
 nav {
     align-items: center;
     text-align: center;

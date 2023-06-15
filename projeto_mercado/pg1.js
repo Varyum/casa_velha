@@ -17,7 +17,9 @@ function showSlides() {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-
+    setInterval(function(){
+        showSlides(slideIndex++)
+    },4000)
 
     slides[slideIndex].style.display = "block";
 
