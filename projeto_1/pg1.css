@@ -1,0 +1,39 @@
+@font-face {
+    font-family:'gothic';
+    src: url(font/old_london/OldLondon.ttf) 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(102, 45, 99) ;
+}
+header{
+background-image: url(img/fundo_1\ copiar2.jpg );
+background-size: 100%;
+font-size: 100px; 
+color: #daa520;
+position: relative;
+text-align: center;
+border: 10px;
+padding: 25px;
+font-family:'gothic';
+}
+ main{
+    width: 70%;
+    padding: 50px;
+ }
+ aside{
+    width: 30%;
+    padding: 50px;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .img{
+    box-sizing: border-box;
+    align-items: center;
+ }
